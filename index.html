@@ -346,8 +346,8 @@
           <div class="mt-8 mb-12">
             <hr>
           </div>
-          <div class="flex">
-            <div class="w-[30%] border-gray-300 border-2 rounded-2xl lg:p-8">
+          <div class="flex lg:flex-row flex-col">
+            <div class="w-[100%] lg:w-[30%] border-gray-300 border-2 rounded-2xl p-6 lg:p-8">
               <div class="p-8  bg-[#bced6d1a] rounded-2xl">
                 <img src="Images/Group 1171275317.png" alt="">
                 <p class="mt-6">Phone Number : <br>
@@ -367,16 +367,43 @@
                 </p>
               </div>
             </div>
-            <div class="w-[70%]">
-              <div class="lg:ml-6">
-                <div class="flex">
+            <div class="mt-6 lg:mt-0 lg:w-[70%]">
+              <div class="lg:ml-14">
+                <div class="flex lg:flex-row flex-col">
                   <label class="form-control w-full max-w-xs">
                     <div class="label">
-                      <span class="label-text">Your name </span>
+                      <span class="label-text font-extrabold text-[18px] text-black">Your name </span>
                     </div>
-                    <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs bg-gray-200" />
+                    <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs bg-gray-200 mt-4" />
+                  </label>
+                  <label class="form-control w-full max-w-xs lg:ml-6">
+                    <div class="label">
+                      <span class="label-text font-extrabold text-[18px] text-black">Your Email </span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full max-w-xs bg-gray-200 mt-4" />
                   </label>
                 </div>
+                <div class="flex lg:flex-row flex-col  lg:mt-6">
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text font-extrabold text-[18px] text-black">Subject </span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Subject" class="input input-bordered w-full max-w-xs bg-gray-200 mt-4" />
+                  </label>
+                  <label class="form-control w-full max-w-xs lg:ml-6">
+                    <div class="label">
+                      <span class="label-text font-extrabold text-[18px] text-black">Phone Number</span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Phone Number" class="input input-bordered w-full max-w-xs bg-gray-200 mt-4" />
+                  </label>
+                </div>
+                <label class="form-control mt-6">
+                  <div class="label">
+                    <span class="label-text font-extrabold text-[18px] text-black">Message</span>
+                  </div>
+                  <textarea class="textarea textarea-bordered lg:h-[339px] bg-gray-200" placeholder="Bio"></textarea>
+                </label>
+                <button class="btn btn-primary w-[100%] mt-8 bg-[#FF4240] text-white">Send Message</button>
               </div>
             </div>
           </div>
