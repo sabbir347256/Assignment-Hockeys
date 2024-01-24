@@ -37,7 +37,7 @@
                   <a class="text-2xl lg:text-4xl  text-black font-extrabold">Hockey <span class="text-[#FF4240]">’</span> s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 font-semibold text-[16px] text-[#424247] font-manerope font-semibold text-[16px]">
+                  <ul class="menu menu-horizontal px-1  text-[#424247] font-manerope font-semibold text-[16px]">
                     <li><a  class="text-[#FF4240]" >Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Pages</a></li>
@@ -52,7 +52,8 @@
                 </div>
               </div>
         </nav>
-        <div class="carousel w-full lg:mt-12 lg:mb-24">
+        <div>
+          <div class="carousel w-full lg:mt-12 lg:mb-24 relative">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/1.png" class="w-full px-3 lg:px-32" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 px-3 lg:px-32">
@@ -68,8 +69,13 @@
               </div>
             </div> 
           </div>
+          <div class="lg:w-[566px] mx-3 h-[200px] lg:h-[165px] bg-[#131318] rounded-2xl  p-8 lg:ml-[550px] lg:-mt-[300px] absolute">
+            <h3 class="font-extrabold text-white lg:text-2xl">Meet all the heroes from the field</h3>
+            <p class="font-medium text-sm text-[#ffffff99] mt-4">Hockey Education Reaching Out Society (HEROS) is a volunteer driven charity that uses the game of hockey.</p>
+          </div>
+        </div>
     </header>
-    <main class="px-3 mt-10 lg:px-32 font-manerope">
+    <main class="px-3 lg:mt-10 lg:px-32 font-manerope mt-52">
         <div>
             <div class="text-center px-11">
                 <h3 class="text-black font-extrabold text-[22px] lg:text-4xl">Professional Hockeys Club</h3>
@@ -407,10 +413,61 @@
               </div>
             </div>
           </div>
+          <section class="social-media mt-12 bg-gray-200 rounded-xl">
+            <div class="text-center py-9">
+              <h3 class="font-extrabold text-[18px] text-black">Social Media</h3>
+              <div class="flex justify-center text-black mt-6">
+                <i class="fa-brands fa-twitter mr-4"></i>
+                <i class="fa-brands fa-facebook-f mr-4"></i>
+                <i class="fa-brands fa-instagram mr-4"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </div>
+          </section>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer p-6 lg:p-10 bg-base-200 text-base-content mt-24 lg:px-24 lg:py-24">
+        <nav class="lg:mr-32 lg:text-start ">
+          <h3 class="font-extrabold text-3xl text-white lg:mx-0 mx-auto">Get In Touch</h3>
+          <p class="w-[340px] mt-4 text-gray-400 lg:text-start text-center">As a general rule a player is allowed to touch the puck with his hand, including batting or catching the puck out of the air.</p>
+          <div class="flex items-center mt-4 lg:mx-0 mx-auto">
+            <i class="fa-regular fa-envelope text-[#FF4240]"></i>
+            <p class="text-[#ffffffcc] ml-2 text-center">hockeys@support.com</p>
+          </div>
+          <div class="flex items-center mt-2 lg:mx-0 mx-auto">
+            <i class="fa-solid fa-phone text-[#FF4240]"></i>
+            <p class="text-[#ffffffcc] ml-2">(+62) 123-321-543</p>
+          </div>
+        </nav> 
+        <div class="grid grid-cols-2 lg:mx-0 mx-auto mt-6" >
+          <nav class="lg:mr-32 mr-4">
+            <div class="lg:text-start text-center">
+              <h3 class="text-xl font-bold text-white">Services</h3> 
+              <a class="link link-hover ">Academy</a><br>
+              <a class="link link-hover ">Group Lession</a><br>
+              <a class="link link-hover ">Private Lession</a><br>
+              <a class="link link-hover ">Hockeys For Kids</a><br>
+              <a class="link link-hover ">Hockeys for Adult</a><br>
+            </div>
+          </nav>
+          <nav class=" lg:mr-28 lg:text-start text-center ml-4">
+            <h3 class="text-xl font-bold text-white">Services</h3> 
+            <a class="link link-hover mt-4">Academy</a><br>
+            <a class="link link-hover">Group Lession</a><br>
+            <a class="link link-hover ">Private Lession</a><br>
+            <a class="link link-hover ">Hockeys For Kids</a><br>
+            <a class="link link-hover">Hockeys for Adult</a><br>
+          </nav>
+           
+        </div>
+        <nav class="lg:mx-0 mx-auto mt-6">
+          <h3 class="text-xl font-bold text-white lg:mx-0 mx-auto">Services</h3> 
+          <a class="link link-hovers lg:mx-0 mx-auto">Academy</a>
+          <a class="link link-hover  lg:mx-0 mx-auto">Group Lession</a>
+          <a class="link link-hover lg:mx-0 mx-auto">Private Lession</a>
+          <a class="link link-hover lg:mx-0 mx-auto">Hockeys For Kids</a>
+          <a class="link link-hover  lg:mx-0 mx-auto">Hockeys for Adult</a>
+        </nav>
     </footer>
 </body>
 </html>
